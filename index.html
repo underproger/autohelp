@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="./css/style.css">
+    <title>AutoHelp</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="_container">
+            <div class="header__wrapper">
+                <div class="header__logo">
+                    <a href="./index.html">
+                        <img src="./assets/logo.svg" alt="">
+                    </a>
+                </div>
+
+                <nav class="header-menu">
+                    <a class="header-menu__logo" href="./index.html">
+                        <img src="./assets/logo.svg" alt="">
+                    </a>
+                    <ul>
+                        <li><a href="#">Кредит</a></li>
+                        <li><a href="#">Обмен</a></li>
+                        <li><a href="#">Выкуп</a></li>
+                        <li><a href="#">О нас</a></li>
+                    </ul>
+
+                    <div class="header-toggle _close">
+
+
+                        <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_290_8)">
+                                <rect x="1.41406" y="0.213257" width="30" height="2" rx="1"
+                                    transform="rotate(45 1.41406 0.213257)" fill="black" />
+                                <rect x="0.414062" y="21.2133" width="30" height="2" rx="1"
+                                    transform="rotate(-45 0.414062 21.2133)" fill="black" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_290_8">
+                                    <rect width="23" height="23" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+
+                    </div>
+                </nav>
+
+                <a href="tel:0999333222" class="header__button">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="white" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_1_27)">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M1.88498 0.511002C2.05996 0.336291 2.27006 0.20076 2.50138 0.113392C2.7327 0.0260236 2.97994 -0.0111874 3.22672 0.00422482C3.47351 0.019637 3.7142 0.0873205 3.93285 0.20279C4.15149 0.318259 4.34311 0.478878 4.49498 0.674002L6.28998 2.98C6.61898 3.403 6.73498 3.954 6.60498 4.474L6.05798 6.664C6.0299 6.77744 6.03153 6.8962 6.0627 7.00883C6.09388 7.12146 6.15356 7.22415 6.23598 7.307L8.69298 9.764C8.77593 9.84659 8.87879 9.90637 8.99161 9.93755C9.10443 9.96874 9.2234 9.97027 9.33698 9.942L11.526 9.395C11.7826 9.33121 12.0504 9.32642 12.3091 9.38097C12.5679 9.43553 12.8109 9.54803 13.02 9.71L15.326 11.504C16.155 12.149 16.231 13.374 15.489 14.115L14.455 15.149C13.715 15.889 12.609 16.214 11.578 15.851C8.93865 14.9236 6.54252 13.4128 4.56798 11.431C2.58636 9.45675 1.07553 7.06097 0.147983 4.422C-0.214017 3.392 0.110983 2.285 0.850983 1.545L1.88498 0.511002Z"
+                                fill="inherit" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_1_27">
+                                <rect width="16" height="16" fill="inherit" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                    <span>0 999 333 222</span>
+                </a>
+
+                <div class="header-toggle _open">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect y="22" width="30" height="2" rx="1" fill="black" />
+                        <rect y="14" width="30" height="2" rx="1" fill="black" />
+                        <rect y="6" width="30" height="2" rx="1" fill="black" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="banner">
+        <div class="_container">
+            <div class="banner-slider">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="banner-slide">
+                                <div class="banner-slide__image">
+                                    <img src="./assets/banner-1.jpg" alt="">
+                                </div>
+                                <div class="banner-slide__info">
+                                    <div class="banner-slide__title">Выгодный кредит на авто за 2 часа</div>
+
+                                    <a href="#" class="banner-slide__button">
+                                        <span>Подробнее</span>
+                                        <svg width="16" height="14" viewBox="0 0 16 14" fill="#18B269" stroke="#18B269"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M15 7L1 7M15 7L9 13M15 7L9 1" stroke="inherit" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="banner-slide">
+                                <div class="banner-slide__image">
+                                    <img src="./assets/banner-2.jpg" alt="">
+                                </div>
+                                <div class="banner-slide__info">
+                                    <div class="banner-slide__title">Покупаем и продаём авто каждый день</div>
+
+                                    <a href="#" class="banner-slide__button">
+                                        <span>Подробнее</span>
+
+
+                                        <svg width="16" height="14" viewBox="0 0 16 14" fill="#18B269" stroke="#18B269"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M15 7L1 7M15 7L9 13M15 7L9 1" stroke="inherit" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="banner-slide">
+                                <div class="banner-slide__image">
+                                    <img src="./assets/banner-3.jpg" alt="">
+                                </div>
+                                <div class="banner-slide__info">
+                                    <div class="banner-slide__title">Выкупим ваше авто или возьмём на комиссию</div>
+
+                                    <a href="#" class="banner-slide__button">
+                                        <span>Подробнее</span>
+                                        <svg width="16" height="14" viewBox="0 0 16 14" fill="#18B269" stroke="#18B269"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M15 7L1 7M15 7L9 13M15 7L9 1" stroke="inherit" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="video">
+        <div class="_container">
+            <div class="video__wrapper">
+                <div class="video__title">Актуальные видео-обзоры</div>
+                <div class="video-icons">
+                    <div class="video-icons__item" data-modal="video-1">
+                        <video muted autoplay loop>
+                            <source src="./assets/video.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="video-icons__item" data-modal="video-2">
+                        <video muted autoplay loop>
+                            <source src="./assets/video.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="video-icons__item" data-modal="video-3">
+                        <video muted autoplay loop>
+                            <source src="./assets/video.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="video-icons__item" data-modal="video-4">
+                        <video muted autoplay loop>
+                            <source src="./assets/video.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="video-icons__item" data-modal="video-5">
+                        <video muted autoplay loop>
+                            <source src="./assets/video.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+                </div>
+                <a href="#" target="_blank" class="video__more">
+                    <span>Смотреть больше в Instagram</span>
+                    <svg width="16" height="14" viewBox="0 0 16 14" fill="none" stroke="#18B269"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15 7L1 7M15 7L9 13M15 7L9 1" stroke="inherit" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="catalog">
+        <div class="_container">
+            <div class="catalog__wrapper">
+                <div class="catalog-header">
+                    <h2 class="catalog__title h2">Лучшие авто по вкусной цене</h2>
+                    <a href="#" class="catalog-header__more">
+                        <span>Смотреть все</span>
+                        <svg width="16" height="14" viewBox="0 0 16 14" fill="none" stroke="#18B269"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15 7L1 7M15 7L9 13M15 7L9 1" stroke="inherit" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="catalog__list">
+                    <div class="catalog-item">
+                        <a href="./product.html" class="catalog-item__image">
+                            <img src="./assets/catalog.png" alt="">
+
+                            <div class="catalog-item__hover">
+                                <span>Смотреть авто</span>
+                            </div>
+                        </a>
+
+                        <div class="catalog-item__info">
+                            <div class="catalog-item__top">
+                                <div class="catalog-item__col">
+                                    <a href="./product.html" class="catalog-item__title">Mercedes ML 400</a>
+
+                                    <div class="catalog-item__details">
+                                        <span>2008</span>
+                                        <span>дизель</span>
+                                        <span>автомат</span>
+                                    </div>
+                                </div>
+
+                                <div class="catalog-item__price">$13800</div>
+                            </div>
+
+                            <div class="catalog-item__bottom">
+                                <div class="catalog-item__credit">Или в кредит от $4388</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="catalog-item">
+                        <a href="./product.html" class="catalog-item__image">
+                            <img src="./assets/catalog.png" alt="">
+
+                            <div class="catalog-item__hover">
+                                <span>Смотреть авто</span>
+                            </div>
+                        </a>
+
+                        <div class="catalog-item__info">
+                            <div class="catalog-item__top">
+                                <div class="catalog-item__col">
+                                    <a href="./product.html" class="catalog-item__title">Mercedes ML 400</a>
+
+                                    <div class="catalog-item__details">
+                                        <span>2008</span>
+                                        <span>дизель</span>
+                                        <span>автомат</span>
+                                    </div>
+                                </div>
+
+                                <div class="catalog-item__price">$13800</div>
+                            </div>
+
+                            <div class="catalog-item__bottom">
+                                <div class="catalog-item__credit">Или в кредит от $4388</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="catalog-item">
+                        <a href="./product.html" class="catalog-item__image">
+                            <img src="./assets/catalog.png" alt="">
+
+                            <div class="catalog-item__hover">
+                                <span>Смотреть авто</span>
+                            </div>
+                        </a>
+
+                        <div class="catalog-item__info">
+                            <div class="catalog-item__top">
+                                <div class="catalog-item__col">
+                                    <a href="./product.html" class="catalog-item__title">Mercedes ML 400</a>
+
+                                    <div class="catalog-item__details">
+                                        <span>2008</span>
+                                        <span>дизель</span>
+                                        <span>автомат</span>
+                                    </div>
+                                </div>
+
+                                <div class="catalog-item__price">$13800</div>
+                            </div>
+
+                            <div class="catalog-item__bottom">
+                                <div class="catalog-item__credit">Или в кредит от $4388</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="catalog-item">
+                        <a href="./product.html" class="catalog-item__image">
+                            <img src="./assets/catalog.png" alt="">
+
+                            <div class="catalog-item__hover">
+                                <span>Смотреть авто</span>
+                            </div>
+                        </a>
+
+                        <div class="catalog-item__info">
+                            <div class="catalog-item__top">
+                                <div class="catalog-item__col">
+                                    <a href="./product.html" class="catalog-item__title">Mercedes ML 400</a>
+
+                                    <div class="catalog-item__details">
+                                        <span>2008</span>
+                                        <span>дизель</span>
+                                        <span>автомат</span>
+                                    </div>
+                                </div>
+
+                                <div class="catalog-item__price">$13800</div>
+                            </div>
+
+                            <div class="catalog-item__bottom">
+                                <div class="catalog-item__credit">Или в кредит от $4388</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="#" class="catalog__more">
+                    <span>Смотреть все</span>
+                    <svg width="16" height="14" viewBox="0 0 16 14" fill="none" stroke="#18B269"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15 7L1 7M15 7L9 13M15 7L9 1" stroke="inherit" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="popular">
+        <div class="_container">
+            <div class="popular__wrapper">
+                <div class="popular-bg">
+                    <img src="./assets/popular.jpg" alt="">
+                </div>
+
+                <h2 class="popular__title h2">
+                    <span>Популярные запросы</span>
+                    <svg width="36" height="41" viewBox="0 0 36 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M20.7333 40.4187C27.2458 39.1145 35.6667 34.4291 35.6667 22.3145C35.6667 11.2916 27.5979 3.94996 21.7958 0.577041C20.5063 -0.172959 19 0.812458 19 2.30204V6.11037C19 9.11454 17.7375 14.5979 14.2292 16.8791C12.4375 18.0437 10.5 16.3 10.2833 14.175L10.1042 12.4291C9.89583 10.4 7.82917 9.16871 6.20833 10.4062C3.29375 12.625 0.25 16.5208 0.25 22.3125C0.25 37.127 11.2688 40.8333 16.7771 40.8333C17.0993 40.8333 17.4354 40.8229 17.7854 40.802C15.0646 40.5708 10.6667 38.8833 10.6667 33.425C10.6667 29.1541 13.7812 26.2687 16.1479 24.8625C16.7854 24.4875 17.5292 24.977 17.5292 25.7166V26.9458C17.5292 27.8833 17.8938 29.352 18.7583 30.3562C19.7375 31.4937 21.1729 30.302 21.2875 28.8062C21.325 28.3354 21.8 28.0354 22.2083 28.2729C23.5438 29.0541 25.25 30.7208 25.25 33.425C25.25 37.6916 22.8979 39.6541 20.7333 40.4187Z"
+                            fill="white" />
+                    </svg>
+                </h2>
+
+                <div class="popular__list">
+                    <div class="popular__item">На автомате до $6500</div>
+                    <div class="popular__item">Премиум</div>
+                    <div class="popular__item">На механике до $5000</div>
+                    <div class="popular__item">Надёжное первое авто</div>
+                    <div class="popular__item">Надёжный паркетник</div>
+                    <div class="popular__item">BMW</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="benefits">
+        <div class="_container">
+            <div class="benefits__wrapper">
+                <h2 class="benefits__title h2">Auto Help — лучшие в регионе!</h2>
+
+                <div class="benefits__list">
+                    <div class="benefits-item">
+                        <div class="benefits-item__icon">
+                            <img src="./assets/benefits-1.svg" alt="">
+                        </div>
+
+                        <div class="benefits-item__title">Договор уже готов</div>
+                        <div class="benefits-item__text">У нас уже есть готовый договор купли-продажи на любое авто на
+                            площадке</div>
+                    </div>
+                    <div class="benefits-item">
+                        <div class="benefits-item__icon">
+                            <img src="./assets/benefits-2.svg" alt="">
+                        </div>
+
+                        <div class="benefits-item__title">Договор уже готов</div>
+                        <div class="benefits-item__text">У нас уже есть готовый договор купли-продажи на любое авто на
+                            площадке</div>
+                    </div>
+                    <div class="benefits-item">
+                        <div class="benefits-item__icon">
+                            <img src="./assets/benefits-3.svg" alt="">
+                        </div>
+
+                        <div class="benefits-item__title">Договор уже готов</div>
+                        <div class="benefits-item__text">У нас уже есть готовый договор купли-продажи на любое авто на
+                            площадке</div>
+                    </div>
+                    <div class="benefits-item">
+                        <div class="benefits-item__icon">
+                            <img src="./assets/benefits-4.svg" alt="">
+                        </div>
+
+                        <div class="benefits-item__title">Договор уже готов</div>
+                        <div class="benefits-item__text">У нас уже есть готовый договор купли-продажи на любое авто на
+                            площадке</div>
+                    </div>
+                    <div class="benefits-item">
+                        <div class="benefits-item__icon">
+                            <img src="./assets/benefits-5.svg" alt="">
+                        </div>
+
+                        <div class="benefits-item__title">Договор уже готов</div>
+                        <div class="benefits-item__text">У нас уже есть готовый договор купли-продажи на любое авто на
+                            площадке</div>
+                    </div>
+                    <div class="benefits-item">
+                        <div class="benefits-item__icon">
+                            <img src="./assets/benefits-6.svg" alt="">
+                        </div>
+
+                        <div class="benefits-item__title">Договор уже готов</div>
+                        <div class="benefits-item__text">У нас уже есть готовый договор купли-продажи на любое авто на
+                            площадке</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="buy">
+        <div class="_container">
+            <div class="buy__wrapper">
+                <a href="#" class="buy-item">
+                    <div class="buy-item__image">
+                        <img src="./assets/buy-1.jpg" alt="">
+                    </div>
+                    <div class="buy-item__text">
+                        <span>Купить</span>
+                    </div>
+                </a>
+                <a href="#" class="buy-item">
+                    <div class="buy-item__image">
+                        <img src="./assets/buy-1.jpg" alt="">
+                    </div>
+
+                    <div class="buy-item__text">
+                        <span>Продать</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="_container">
+            <div class="footer__wrapper">
+                <div class="footer__col">
+                    <div class="footer__title">Контакты</div>
+
+                    <div class="footer-phones">
+                        <div class="footer-phones__item">
+                            <span>Консультация</span>
+
+                            <a href="tel:0999333222">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M1.88501 0.510903C2.05999 0.336191 2.27009 0.200661 2.50141 0.113293C2.73273 0.0259244 2.97997 -0.0112866 3.22675 0.00412564C3.47354 0.0195378 3.71423 0.0872213 3.93288 0.202691C4.15152 0.31816 4.34314 0.478779 4.49501 0.673903L6.29001 2.9799C6.61901 3.4029 6.73501 3.9539 6.60501 4.4739L6.05801 6.6639C6.02993 6.77734 6.03156 6.89611 6.06273 7.00873C6.09391 7.12136 6.15359 7.22405 6.23601 7.3069L8.69301 9.7639C8.77596 9.84649 8.87882 9.90627 8.99164 9.93745C9.10447 9.96864 9.22343 9.97017 9.33701 9.9419L11.526 9.3949C11.7827 9.33111 12.0504 9.32632 12.3092 9.38088C12.5679 9.43543 12.811 9.54793 13.02 9.7099L15.326 11.5039C16.155 12.1489 16.231 13.3739 15.489 14.1149L14.455 15.1489C13.715 15.8889 12.609 16.2139 11.578 15.8509C8.93869 14.9235 6.54255 13.4127 4.56801 11.4309C2.58639 9.45665 1.07556 7.06087 0.148013 4.4219C-0.213987 3.3919 0.111013 2.2849 0.851013 1.5449L1.88501 0.510903Z"
+                                        fill="white" />
+                                </svg>
+                                <span>0 999 333 222</span>
+                            </a>
+                        </div>
+                        <div class="footer-phones__item">
+                            <span>Кредит</span>
+
+                            <a href="tel:0933444556">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M1.88501 0.510903C2.05999 0.336191 2.27009 0.200661 2.50141 0.113293C2.73273 0.0259244 2.97997 -0.0112866 3.22675 0.00412564C3.47354 0.0195378 3.71423 0.0872213 3.93288 0.202691C4.15152 0.31816 4.34314 0.478779 4.49501 0.673903L6.29001 2.9799C6.61901 3.4029 6.73501 3.9539 6.60501 4.4739L6.05801 6.6639C6.02993 6.77734 6.03156 6.89611 6.06273 7.00873C6.09391 7.12136 6.15359 7.22405 6.23601 7.3069L8.69301 9.7639C8.77596 9.84649 8.87882 9.90627 8.99164 9.93745C9.10447 9.96864 9.22343 9.97017 9.33701 9.9419L11.526 9.3949C11.7827 9.33111 12.0504 9.32632 12.3092 9.38088C12.5679 9.43543 12.811 9.54793 13.02 9.7099L15.326 11.5039C16.155 12.1489 16.231 13.3739 15.489 14.1149L14.455 15.1489C13.715 15.8889 12.609 16.2139 11.578 15.8509C8.93869 14.9235 6.54255 13.4127 4.56801 11.4309C2.58639 9.45665 1.07556 7.06087 0.148013 4.4219C-0.213987 3.3919 0.111013 2.2849 0.851013 1.5449L1.88501 0.510903Z"
+                                        fill="white" />
+                                </svg>
+                                <span>093 3 444 556</span>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="footer__col">
+                    <div class="footer__title">Площадки</div>
+                    <div class="footer__address">
+                        <p>Запорожье</p>
+                        <a href="#" target="_blank">вул. Новокузнецька 41, ТРЦ "Амстор"</a>
+                    </div>
+                    <div class="footer__address">
+                        <p>Днепр</p>
+                        <a href="#" target="_blank">Проспект Слобожанский 35</a>
+                    </div>
+                </div>
+
+                <div class="footer__col">
+                    <div class="footer__socials">
+                        <a href="#" target="_blank">
+                            <svg width="42" height="42" viewBox="0 0 42 42" fill="white"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M21 0.166748C9.49996 0.166748 0.166626 9.50008 0.166626 21.0001C0.166626 32.5001 9.49996 41.8334 21 41.8334C32.5 41.8334 41.8333 32.5001 41.8333 21.0001C41.8333 9.50008 32.5 0.166748 21 0.166748ZM30.6666 14.3334C30.3541 17.6251 29 25.6251 28.3125 29.3126C28.0208 30.8751 27.4375 31.3959 26.8958 31.4584C25.6875 31.5626 24.7708 30.6668 23.6041 29.8959C21.7708 28.6876 20.7291 27.9376 18.9583 26.7709C16.8958 25.4168 18.2291 24.6667 19.4166 23.4584C19.7291 23.1459 25.0625 18.2917 25.1666 17.8542C25.1811 17.788 25.1792 17.7192 25.161 17.6538C25.1429 17.5885 25.109 17.5286 25.0625 17.4792C24.9375 17.3751 24.7708 17.4167 24.625 17.4376C24.4375 17.4792 21.5208 19.4167 15.8333 23.2501C15 23.8126 14.25 24.1042 13.5833 24.0834C12.8333 24.0626 11.4166 23.6667 10.3541 23.3126C9.04163 22.8959 8.02079 22.6667 8.10413 21.9376C8.14579 21.5626 8.66663 21.1876 9.64579 20.7917C15.7291 18.1459 19.7708 16.3959 21.7916 15.5626C27.5833 13.1459 28.7708 12.7292 29.5625 12.7292C29.7291 12.7292 30.125 12.7709 30.375 12.9792C30.5833 13.1459 30.6458 13.3751 30.6666 13.5417C30.6458 13.6667 30.6875 14.0417 30.6666 14.3334Z"
+                                    fill="inherit" />
+                            </svg>
+                        </a>
+                        <a href="#" target="_blank">
+                            <svg width="42" height="42" viewBox="0 0 42 42" fill="white"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M12.25 0.166748H29.75C36.4166 0.166748 41.8333 5.58342 41.8333 12.2501V29.7501C41.8333 32.9548 40.5602 36.0282 38.2942 38.2943C36.0281 40.5604 32.9547 41.8334 29.75 41.8334H12.25C5.58329 41.8334 0.166626 36.4168 0.166626 29.7501V12.2501C0.166626 9.04538 1.43969 5.97194 3.70575 3.70587C5.97182 1.43981 9.04526 0.166748 12.25 0.166748ZM11.8333 4.33342C9.84417 4.33342 7.93652 5.12359 6.52999 6.53011C5.12347 7.93664 4.33329 9.84429 4.33329 11.8334V30.1667C4.33329 34.3126 7.68746 37.6668 11.8333 37.6668H30.1666C32.1558 37.6668 34.0634 36.8766 35.4699 35.4701C36.8765 34.0635 37.6666 32.1559 37.6666 30.1667V11.8334C37.6666 7.68758 34.3125 4.33342 30.1666 4.33342H11.8333ZM31.9375 7.45842C32.6281 7.45842 33.2905 7.73278 33.7789 8.22116C34.2673 8.70953 34.5416 9.37191 34.5416 10.0626C34.5416 10.7533 34.2673 11.4156 33.7789 11.904C33.2905 12.3924 32.6281 12.6667 31.9375 12.6667C31.2468 12.6667 30.5844 12.3924 30.096 11.904C29.6077 11.4156 29.3333 10.7533 29.3333 10.0626C29.3333 9.37191 29.6077 8.70953 30.096 8.22116C30.5844 7.73278 31.2468 7.45842 31.9375 7.45842ZM21 10.5834C23.7626 10.5834 26.4122 11.6809 28.3657 13.6344C30.3192 15.5879 31.4166 18.2374 31.4166 21.0001C31.4166 23.7628 30.3192 26.4123 28.3657 28.3658C26.4122 30.3193 23.7626 31.4167 21 31.4167C18.2373 31.4167 15.5878 30.3193 13.6343 28.3658C11.6808 26.4123 10.5833 23.7628 10.5833 21.0001C10.5833 18.2374 11.6808 15.5879 13.6343 13.6344C15.5878 11.6809 18.2373 10.5834 21 10.5834ZM21 14.7501C19.3424 14.7501 17.7526 15.4086 16.5805 16.5807C15.4084 17.7528 14.75 19.3425 14.75 21.0001C14.75 22.6577 15.4084 24.2474 16.5805 25.4195C17.7526 26.5916 19.3424 27.2501 21 27.2501C22.6576 27.2501 24.2473 26.5916 25.4194 25.4195C26.5915 24.2474 27.25 22.6577 27.25 21.0001C27.25 19.3425 26.5915 17.7528 25.4194 16.5807C24.2473 15.4086 22.6576 14.7501 21 14.7501Z"
+                                    fill="inherit" />
+                            </svg>
+                        </a>
+                        <a href="#" target="_blank">
+                            <svg width="34" height="38" viewBox="0 0 34 38" fill="white"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M26.5833 6.125C25.1595 4.49901 24.3747 2.41125 24.375 0.25H17.9375V26.0833C17.8888 27.4816 17.299 28.8064 16.2923 29.7781C15.2856 30.7498 13.9408 31.2925 12.5416 31.2917C9.58329 31.2917 7.12496 28.875 7.12496 25.875C7.12496 22.2917 10.5833 19.6042 14.1458 20.7083V14.125C6.95829 13.1667 0.666626 18.75 0.666626 25.875C0.666626 32.8125 6.41663 37.75 12.5208 37.75C19.0625 37.75 24.375 32.4375 24.375 25.875V12.7708C26.9854 14.6455 30.1195 15.6513 33.3333 15.6458V9.20833C33.3333 9.20833 29.4166 9.39583 26.5833 6.125Z"
+                                    fill="inherit" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal" data-modal="video-1">
+        <div class="modal-bg"></div>
+        <div class="modal-close">
+            <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="1.41406" y="0.213257" width="30" height="2" rx="1" transform="rotate(45 1.41406 0.213257)"
+                    fill="white" />
+                <rect x="0.414062" y="21.2133" width="30" height="2" rx="1" transform="rotate(-45 0.414062 21.2133)"
+                    fill="white" />
+            </svg>
+        </div>
+
+        <div class="modal__wrapper">
+            <video controls>
+                <source src="./assets/video.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+    <div class="modal" data-modal="video-2">
+        <div class="modal-bg"></div>
+        <div class="modal-close">
+            <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="1.41406" y="0.213257" width="30" height="2" rx="1" transform="rotate(45 1.41406 0.213257)"
+                    fill="white" />
+                <rect x="0.414062" y="21.2133" width="30" height="2" rx="1" transform="rotate(-45 0.414062 21.2133)"
+                    fill="white" />
+            </svg>
+        </div>
+
+        <div class="modal__wrapper">
+            <video controls>
+                <source src="./assets/video.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+    <div class="modal" data-modal="video-3">
+        <div class="modal-bg"></div>
+        <div class="modal-close">
+            <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="1.41406" y="0.213257" width="30" height="2" rx="1" transform="rotate(45 1.41406 0.213257)"
+                    fill="white" />
+                <rect x="0.414062" y="21.2133" width="30" height="2" rx="1" transform="rotate(-45 0.414062 21.2133)"
+                    fill="white" />
+            </svg>
+        </div>
+
+        <div class="modal__wrapper">
+            <video controls>
+                <source src="./assets/video.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+    <div class="modal" data-modal="video-4">
+        <div class="modal-bg"></div>
+        <div class="modal-close">
+            <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="1.41406" y="0.213257" width="30" height="2" rx="1" transform="rotate(45 1.41406 0.213257)"
+                    fill="white" />
+                <rect x="0.414062" y="21.2133" width="30" height="2" rx="1" transform="rotate(-45 0.414062 21.2133)"
+                    fill="white" />
+            </svg>
+        </div>
+
+        <div class="modal__wrapper">
+            <video controls>
+                <source src="./assets/video.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+    <div class="modal" data-modal="video-5">
+        <div class="modal-bg"></div>
+        <div class="modal-close">
+            <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="1.41406" y="0.213257" width="30" height="2" rx="1" transform="rotate(45 1.41406 0.213257)"
+                    fill="white" />
+                <rect x="0.414062" y="21.2133" width="30" height="2" rx="1" transform="rotate(-45 0.414062 21.2133)"
+                    fill="white" />
+            </svg>
+        </div>
+
+        <div class="modal__wrapper">
+            <video controls>
+                <source src="./assets/video.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
